@@ -13,7 +13,6 @@ int doRand() {
     return rand() % 100;
 }
 
-
 // main function
 int main() {
 
