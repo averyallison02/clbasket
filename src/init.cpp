@@ -13,6 +13,16 @@ int doRand() {
     return rand() % 100;
 }
 
+string stringInput(string prompt) {
+
+   string message;
+   
+   cout << prompt << ": ";
+   getline(cin,message);
+
+   return message; 
+}
+
 // main function
 int main() {
 
