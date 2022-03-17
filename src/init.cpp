@@ -40,6 +40,17 @@ string stringInput(string prompt) {
    return message; 
 }
 
+bool doTurn(bool currentTeam) {
+
+    if (currentTeam) {
+
+        bool shotBall = false;
+        while (!shotBall) {
+
+        }
+    }
+}
+
 // main function
 int main() {
 
