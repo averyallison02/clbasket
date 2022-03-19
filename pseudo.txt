@@ -1,0 +1,7 @@
+function doTurn() type: int
+param for team in possession
+    if player team is on offense, ask them to pass or shoot (with for loop)
+        if pass: run cpuDef and trySteal, return 0 if both are true, repeat pass or shoot loop if it is false
+        if shoot: run tryPlayerShot, if true: check shot distance for point value, if false return 0
+    if cpu team on offense, ask player to "steal" or "defend shot" (with for loop)
+
